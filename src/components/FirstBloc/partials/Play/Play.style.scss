@@ -1,11 +1,11 @@
-.work-component {
+.play-component {
     margin-left: 8rem;
     padding: 3rem 4rem;
 
-    .work-wrapper {
-        .work-image {
+    .play-wrapper {
+        .play-image {
             position: absolute;
-            background-color: hsl(15, 100%, 70%);
+            background-color: hsl(195, 74%, 62%);
             padding: 2rem 2.5rem;
             border-radius: 1.5rem;
             width: 15rem;
@@ -17,7 +17,7 @@
             }
         }
 
-        .work-information {
+        .play-information {
             background-color: #1c1f4a;
             color: white;
             padding: 2rem -0.5rem;
