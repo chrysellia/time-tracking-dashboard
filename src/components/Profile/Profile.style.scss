@@ -1,0 +1,52 @@
+.profile-component {
+    .profile-wrapper {
+        padding: 3rem 4rem;
+
+        .profile-information {
+            position: absolute;
+            background-color: #5847eb;
+            padding: 2rem 3rem;
+            border-radius: 1.5rem;
+            width: 15rem;
+
+            .profile-image {
+                img {
+                    width: 50%;
+                }
+            }
+
+            .profile-text {
+                color: white;
+                padding-top: 2rem;
+
+                .profile-title {
+                    padding-bottom: 1rem;
+                    font-size: 10px;
+                }
+                
+                .profile-name {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        .profile-background {
+            position: absolute;
+            background-color: hsl(235, 46%, 20%);
+            border-radius: 1.5rem;
+            width: 15rem;
+            top: 19rem;
+
+            .time-frequency {
+                color: #6f76c8;
+                font-size: 18px;
+                padding: 1.5rem 3rem;
+                padding-top: 3rem;
+
+                .time-name {
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
