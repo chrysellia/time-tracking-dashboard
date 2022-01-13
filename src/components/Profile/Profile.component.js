@@ -1,6 +1,6 @@
 import React from 'react'
 import './Profile.style.scss'
-import FirstBloc from '../FirstBloc/FirstBloc.component';
+import Bloc from '../Bloc/Bloc.component';
 
 const Profile = () => {
     return (
@@ -24,7 +24,7 @@ const Profile = () => {
                 </div>
             </div>
 
-            <div><FirstBloc/></div>
+            <div><Bloc/></div>
         </div>
     )
 }

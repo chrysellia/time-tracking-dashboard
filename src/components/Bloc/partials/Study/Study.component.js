@@ -2,7 +2,7 @@ import React from 'react'
 import './Study.style.scss'
 import {BsThreeDots} from 'react-icons/bs';
 
-const study = () => {
+const Study = () => {
     return (
         <div className="study-component">
             <div className="study-wrapper">
@@ -29,4 +29,4 @@ const study = () => {
     )
 }
 
-export default study
+export default Study

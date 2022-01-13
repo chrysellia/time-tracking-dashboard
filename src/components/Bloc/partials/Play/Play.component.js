@@ -2,7 +2,7 @@ import React from 'react'
 import './Play.style.scss'
 import {BsThreeDots} from 'react-icons/bs';
 
-const play = () => {
+const Play = () => {
     return (
         <div className="play-component">
             <div className="play-wrapper">
@@ -29,4 +29,4 @@ const play = () => {
     )
 }
 
-export default play
+export default Play
