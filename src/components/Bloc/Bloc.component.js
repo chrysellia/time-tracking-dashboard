@@ -11,7 +11,7 @@ import './Bloc.style.scss';
 const Bloc = () => {
     return (
         <div className="bloc-component">
-            <div className="bloc-wrapper flex flex-wrap">
+            <div className="bloc-wrapper">
                 <div className="first-bloc">
                     <Work/>
                     <Play/>

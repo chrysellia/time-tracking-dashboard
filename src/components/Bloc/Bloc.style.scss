@@ -2,6 +2,7 @@
     display: flex;
 
     .bloc-wrapper {
+        flex-wrap: wrap;
         width: 33%;
 
         .first-bloc {
@@ -12,6 +13,28 @@
            .second-wrapper {
                 display: flex;
            }
+        }
+    }
+}
+
+@media only screen and(max-width: 480px) {
+    .bloc-component {
+        display: flex;
+    
+        .bloc-wrapper {
+            width: 100%;
+
+            .first-bloc {
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .second-bloc {
+               .second-wrapper {
+                    display: flex;
+                    flex-direction: column;
+               }
+            }
         }
     }
 }
