@@ -3,6 +3,9 @@
     padding: 3rem 4rem;
 
     .selfcare-wrapper {
+        position: relative;
+        top: 8rem;
+
         .selfcare-image {
             position: absolute;
             background-color: hsl(43, 84%, 65%);
@@ -25,11 +28,15 @@
             width: 15rem;
             padding: 1rem 2rem;
             position: absolute;
-            top: 6rem;
+            top: 2rem;
 
             .header-information {
                 display: flex;
 
+                .header-title {
+                    font-size: 14px;
+                }
+                
                 .header-icon {
                     display: flex;
                     align-items: center;

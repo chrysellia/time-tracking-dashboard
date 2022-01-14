@@ -12,7 +12,7 @@ const Selfcare = () => {
 
                 <div className="selfcare-information">
                     <div className="header-information">
-                        <div className="header-tile">Self Care</div>
+                        <div className="header-title">SelfCare</div>
                         <div className="header-icon"><BsThreeDots/></div>
                     </div>
 

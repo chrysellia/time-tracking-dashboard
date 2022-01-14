@@ -6,7 +6,7 @@
         .play-image {
             position: absolute;
             background-color: hsl(195, 74%, 62%);
-            padding: 2rem 2.5rem;
+            padding: 2rem 1rem;
             border-radius: 1.5rem;
             width: 15rem;
 
@@ -29,6 +29,10 @@
 
             .header-information {
                 display: flex;
+
+                .header-title {
+                    font-size: 14px;
+                }
 
                 .header-icon {
                     display: flex;

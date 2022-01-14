@@ -8,10 +8,10 @@ import Social from  './partials/Social/Social.component'
 import SelfCare from './partials/SelfCare/SelfCare.component'
 import './Bloc.style.scss';
 
-const FirstBloc = () => {
+const Bloc = () => {
     return (
         <div className="bloc-component">
-            <div className="bloc-wrapper">
+            <div className="bloc-wrapper flex flex-wrap">
                 <div className="first-bloc">
                     <Work/>
                     <Play/>
@@ -19,13 +19,15 @@ const FirstBloc = () => {
                 </div>
 
                 <div className="second-bloc">
-                    <Exercise/>
-                    <Social/>
-                    <SelfCare/>
+                    <div className="second-wrapper">
+                        <Exercise/>
+                        <Social/>
+                        <SelfCare/>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default FirstBloc
+export default Bloc

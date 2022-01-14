@@ -29,6 +29,10 @@
 
             .header-information {
                 display: flex;
+                
+                .header-title {
+                    font-size: 14px;
+                }
 
                 .header-icon {
                     display: flex;

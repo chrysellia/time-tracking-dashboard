@@ -1,13 +1,23 @@
 .bloc-component {
     display: flex;
+    position: relative;
 
     .bloc-wrapper {
+        margin-right: 1rem;
+        width: 33%;
+
         .first-bloc {
-            width: 33%;
+            display: flex;
+            position: relative;
         }
 
-        .firssecondt-bloc {
-            width: 33%;
+        .second-bloc {
+            position: relative;
+
+           .second-wrapper {
+                display: flex;
+               top: 10rem;
+           }
         }
     }
 }
