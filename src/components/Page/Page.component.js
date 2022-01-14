@@ -5,7 +5,9 @@ import './Page.style.scss'
 const Page = () => {
     return (
         <div className="page-wrapper">
-            <Profile/>
+            <div className="page-content">
+                <Profile/>
+            </div>
         </div>
     )
 }
