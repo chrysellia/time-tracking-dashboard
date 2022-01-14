@@ -13,7 +13,7 @@ const Work = () => {
                 <div className="work-information">
                     <div className="header-information">
                         <div className="header-tile">Work</div>
-                        <div className="header-icon"><BsThreeDots/></div>
+                        <div className="header-icon" style={{color:'#6f76c8'}}><BsThreeDots/></div>
                     </div>
 
                     <div className="body-information">

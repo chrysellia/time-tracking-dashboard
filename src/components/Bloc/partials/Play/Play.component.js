@@ -13,7 +13,7 @@ const Play = () => {
                 <div className="play-information">
                     <div className="header-information">
                         <div className="header-tile">Play</div>
-                        <div className="header-icon"><BsThreeDots/></div>
+                        <div className="header-icon" style={{color:'#6f76c8'}}><BsThreeDots/></div>
                     </div>
 
                     <div className="body-information">

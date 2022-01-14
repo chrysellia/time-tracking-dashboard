@@ -13,7 +13,7 @@ const Social = () => {
                 <div className="social-information">
                     <div className="header-information">
                         <div className="header-tile">Social</div>
-                        <div className="header-icon"><BsThreeDots/></div>
+                        <div className="header-icon" style={{color:'#6f76c8'}}><BsThreeDots/></div>
                     </div>
 
                     <div className="body-information">
