@@ -26,6 +26,11 @@
             padding: 1rem 2rem;
             position: absolute;
             top: 9rem;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(52, 57, 123);
+            }
 
             .header-information {
                 display: flex;
@@ -55,6 +60,70 @@
         .footer-information {
             .footer-time {
                 color: #6f76c8;
+            }
+        }
+    }
+}
+
+@media only screen and(max-width: 480px) {
+    .play-component {
+        margin-left: 8rem;
+        padding: 6rem 4rem;
+    
+        .play-wrapper {
+            .play-image {
+                position: absolute;
+                background-color: hsl(195, 74%, 62%);
+                padding: 2rem 1rem;
+                border-radius: 1.5rem;
+                width: 15rem;
+    
+                img {
+                    position: relative;
+                    top: -2rem;
+                    right: -6rem;
+                }
+            }
+    
+            .play-information {
+                background-color: #1c1f4a;
+                color: white;
+                padding: 2rem -0.5rem;
+                border-radius: 1.5rem;
+                width: 15rem;
+                padding: 1rem 2rem;
+                position: absolute;
+                top: 23rem;
+    
+                .header-information {
+                    display: flex;
+    
+                    .header-title {
+                        font-size: 14px;
+                    }
+    
+                    .header-icon {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 7.5rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+    
+            .body-information {
+                padding-top: 1rem;
+    
+                .body-time {
+                    font-size: 30px;
+                }
+            }
+    
+            .footer-information {
+                .footer-time {
+                    color: #6f76c8;
+                }
             }
         }
     }

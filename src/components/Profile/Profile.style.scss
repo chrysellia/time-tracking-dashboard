@@ -55,3 +55,66 @@
         }
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .profile-component {
+        
+        .profile-wrapper {
+            padding: 3rem 4rem;
+            margin: 3rem 2rem;
+    
+            .profile-information {
+                position: absolute;
+                display: flex;
+                background-color: #5847eb;
+                padding: 1rem 2rem;
+                border-radius: 1.5rem;
+                width: 20rem;
+                height: 10rem;
+    
+                .profile-image {
+                    padding-top: 1rem;
+    
+                    img {
+                        width: 30%;
+                    }
+                }
+    
+                .profile-text {
+                    color: white;
+                    padding-top: 1rem;
+    
+                    .profile-title {
+                        font-size: 8px;
+                    }
+                    
+                    .profile-name {
+                        font-size: 20px;
+                    }
+                }
+            }
+    
+            .profile-background {
+                position: absolute;
+                background-color: hsl(235, 46%, 20%);
+                border-radius: 1.5rem;
+                width: 15rem;
+                top: 15.5rem;
+    
+                .time-frequency {
+                    display: flex;
+                    color: #6f76c8;
+                    font-size: 14px;
+                    padding: 3rem 3rem;
+                    padding-top: 0.5rem;
+    
+                    .time-name {
+                        padding-bottom: 0rem;
+                        cursor: pointer;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -28,6 +28,10 @@
             top: 9rem;
             cursor: pointer;
 
+            &:hover {
+                background-color: rgb(52, 57, 123);
+            }
+
             .header-information {
                 display: flex;
 
@@ -37,6 +41,10 @@
                     justify-content: center;
                     margin-left: 7.5rem;
                     cursor: pointer;
+
+                    &:hover {
+                        fill: white;
+                    }
                 }
             }
         }
@@ -52,6 +60,67 @@
         .footer-information {
             .footer-time {
                 color: #6f76c8;
+            }
+        }
+    }
+}
+
+@media only screen and(max-width: 480px) {
+    .work-component {
+        // margin-left: 5rem;
+        // padding: 6rem 4rem;
+    
+        .work-wrapper {
+            .work-image {
+                position: absolute;
+                background-color: hsl(15, 100%, 70%);
+                padding: 2rem 2.5rem;
+                border-radius: 1.5rem;
+                width: 15rem;
+    
+                img {
+                    position: relative;
+                    top: -2rem;
+                    right: -6rem;
+                }
+            }
+    
+            .work-information {
+                background-color: #1c1f4a;
+                color: white;
+                padding: 2rem -0.5rem;
+                border-radius: 1.5rem;
+                width: 15rem;
+                padding: 1rem 2rem;
+                position: absolute;
+                top: 9rem;
+                cursor: pointer;
+    
+                .header-information {
+                    display: flex;
+    
+                    .header-icon {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 7.5rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+    
+            .body-information {
+                padding-top: 1rem;
+    
+                .body-time {
+                    font-size: 30px;
+                }
+            }
+    
+            .footer-information {
+                .footer-time {
+                    color: #6f76c8;
+                }
             }
         }
     }

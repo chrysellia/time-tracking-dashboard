@@ -13,7 +13,7 @@ const Selfcare = () => {
                 <div className="selfcare-information">
                     <div className="header-information">
                         <div className="header-title">SelfCare</div>
-                        <div className="header-icon" style={{color:'#6f76c8'}}><BsThreeDots/></div>
+                        <div className="header-icon" style={{color:'#6f76c8'}}><BsThreeDots className="hover:text-white"/></div>
                     </div>
 
                     <div className="body-information">
